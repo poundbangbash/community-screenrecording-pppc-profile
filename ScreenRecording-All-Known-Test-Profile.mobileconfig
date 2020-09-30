@@ -121,47 +121,11 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>identifier "com.obsproject.obs-studio" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 2MMRE5MTB8</string>
-						<key>Comment</key>
-						<string>OBS (Open Broadcaster Software)</string>
-						<key>Identifier</key>
-						<string>com.obsproject.obs-studio</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Authorization</key>
-						<string>AllowStandardUserToSetSystemService</string>
-						<key>CodeRequirement</key>
-						<string>identifier "com.mersive.solstice.client" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 63B5A5WDNG</string>
-						<key>Comment</key>
-						<string>Solstice Client</string>
-						<key>Identifier</key>
-						<string>com.mersive.solstice.client</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Authorization</key>
-						<string>AllowStandardUserToSetSystemService</string>
-						<key>CodeRequirement</key>
 						<string>identifier "com.microsoft.Powerpoint" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
 						<key>Comment</key>
 						<string>Microsoft PowerPoint</string>
 						<key>Identifier</key>
 						<string>com.microsoft.Powerpoint</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Authorization</key>
-						<string>AllowStandardUserToSetSystemService</string>
-						<key>CodeRequirement</key>
-						<string>anchor apple generic and identifier "com.surteesstudios.Bartender" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 8DD663WDX4)</string>
-						<key>Comment</key>
-						<string>Bartender</string>
-						<key>Identifier</key>
-						<string>com.surteesstudios.Bartender</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -193,7 +157,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>anchor apple generic and identifier "com.agilebits.onepassword7" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 2BUA8C4S2C)</string>
+						<string>anchor apple generic and identifier "com.agilebits.onepassword7" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2BUA8C4S2C")</string>
 						<key>Comment</key>
 						<string>1Password 7</string>
 						<key>Identifier</key>
@@ -241,7 +205,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 43AQ936H96</string>
+						<string>anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "43AQ936H96"</string>
 						<key>Comment</key>
 						<string>Firefox</string>
 						<key>Identifier</key>
@@ -277,23 +241,11 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>identifier "com.hnc.Discord" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 53Q6R32WPB</string>
+						<string>identifier "com.hnc.Discord" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "53Q6R32WPB"</string>
 						<key>Comment</key>
 						<string>Discord</string>
 						<key>Identifier</key>
 						<string>com.hnc.Discord</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Authorization</key>
-						<string>AllowStandardUserToSetSystemService</string>
-						<key>CodeRequirement</key>
-						<string>identifier "jwrapper.osx.RemoteSupport" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 22Q6WQC57V</string>
-						<key>Comment</key>
-						<string>Remote Support (simple help)</string>
-						<key>Identifier</key>
-						<string>jwrapper.osx.RemoteSupport</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -361,7 +313,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>identifier "com.nomachine.nxdock" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 493C5JZAGR</string>
+						<string>identifier "com.nomachine.nxdock" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "493C5JZAGR"</string>
 						<key>Comment</key>
 						<string>NoMachine</string>
 						<key>Identifier</key>
@@ -373,7 +325,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>identifier "com.amazon.Amazon-Chime" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 94KV3E626L</string>
+						<string>identifier "com.amazon.Amazon-Chime" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "94KV3E626L"</string>
 						<key>Comment</key>
 						<string>Amazon Chime</string>
 						<key>Identifier</key>
@@ -397,7 +349,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>"com.TechSmith.Snagit2020" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 7TQL462TU8</string>
+						<string>identifier "com.TechSmith.Snagit2020" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7TQL462TU8"</string>
 						<key>Comment</key>
 						<string>Snagit 2020</string>
 						<key>Identifier</key>
@@ -450,18 +402,6 @@
 						<string>Bomgar / BeyondTrust Remote Support Jump Client</string>
 						<key>Identifier</key>
 						<string>com.bomgar.bomgar-scc</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Authorization</key>
-						<string>AllowStandardUserToSetSystemService</string>
-						<key>CodeRequirement</key>
-						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = 7DHD85J467) and identifier "com.sonicfoundry.mediasite.capture"</string>
-						<key>Comment</key>
-						<string>Mediasite Mosaic</string>
-						<key>Identifier</key>
-						<string>com.sonicfoundry.mediasite.capture</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
