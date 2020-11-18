@@ -128,7 +128,7 @@
 						<string>com.teamviewer.TeamViewerHost</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
-            		</dict>
+					</dict>
 					<dict>
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
