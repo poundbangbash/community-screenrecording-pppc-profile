@@ -477,6 +477,42 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GP5P6H7RRF</string>
+						<key>Comment</key>
+						<string>ISL AlwaysOn</string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/ISLAlwaysOn/ISLAlwaysOn</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GP5P6H7RRF</string>
+						<key>Comment</key>
+						<string>ISL AlwaysOn Monitor</string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/ISLAlwaysOn/ISLAlwaysOnMonitor</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GP5P6H7RRF</string>
+						<key>Comment</key>
+						<string>ISL ISSC Daemon</string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/ISLAlwaysOn/issc_daemon</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
