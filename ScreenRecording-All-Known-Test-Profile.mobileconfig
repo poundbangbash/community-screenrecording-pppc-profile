@@ -513,6 +513,30 @@
 						<key>IdentifierType</key>
 						<string>path</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.loom.desktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = QGD2ZPXZZG</string>
+						<key>Comment</key>
+						<string>Loom</string>
+						<key>Identifier</key>
+						<string>com.loom.desktop</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.techsmith.camtasia2020" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7TQL462TU8"</string>
+						<key>Comment</key>
+						<string>TechSmith Camtasia 2020</string>
+						<key>Identifier</key>
+						<string>com.techsmith.camtasia2020</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
