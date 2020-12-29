@@ -537,6 +537,18 @@
 						<key>IdentifierType</key>
 						<string>path</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "org.safeexambrowser.Safe-Exam-Browser" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "6F38DNSC7X")</string>
+						<key>Comment</key>
+						<string>Safe Exam Browser</string>
+						<key>Identifier</key>
+						<string>org.safeexambrowser.Safe-Exam-Browser</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
