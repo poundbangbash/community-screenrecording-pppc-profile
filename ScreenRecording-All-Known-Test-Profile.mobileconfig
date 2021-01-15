@@ -21,7 +21,7 @@
 			<dict>
 				<key>ScreenCapture</key>
 				<array>
-				    <dict>
+					<dict>
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
@@ -548,6 +548,90 @@
 						<string>org.safeexambrowser.Safe-Exam-Browser</string>
 						<key>IdentifierType</key>
 						<string>path</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "at.obdev.LaunchBar" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MLZF7K7B5R)</string>
+						<key>Comment</key>
+						<string>LaunchBar</string>
+						<key>Identifier</key>
+						<string>at.obdev.LaunchBar</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "925PGC4MV7") and identifier "com.fasthatchapps.gifgrabberosx"</string>
+						<key>Comment</key>
+						<string>Giphy Capture</string>
+						<key>Identifier</key>
+						<string>com.fasthatchapps.gifgrabberosx</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.gifox.gifox2" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XMV2TR3XRX)</string>
+						<key>Comment</key>
+						<string>Gifox2</string>
+						<key>Identifier</key>
+						<string>com.gifox.gifox2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.hegenberg.BetterTouchTool" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DAFVSXZ82P)</string>
+						<key>Comment</key>
+						<string>BetterTouchTool</string>
+						<key>Identifier</key>
+						<string>com.hegenberg.BetterTouchTool</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.logmein.GoToMeeting" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GFNFVT632V</string>
+						<key>Comment</key>
+						<string>GoToMeeting</string>
+						<key>Identifier</key>
+						<string>com.logmein.GoToMeeting</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.surteesstudios.Bartender" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8DD663WDX4")</string>
+						<key>Comment</key>
+						<string>Bartender</string>
+						<key>Identifier</key>
+						<string>com.surteesstudios.Bartender</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.webex.meetingmanager" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DE8Y96K9QP</string>
+						<key>Comment</key>
+						<string>Cisco Webex Metting Center</string>
+						<key>Identifier</key>
+						<string>com.webex.meetingmanager</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
 					</dict>
 				</array>
 			</dict>
