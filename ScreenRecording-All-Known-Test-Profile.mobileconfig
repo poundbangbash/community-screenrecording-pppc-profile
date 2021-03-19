@@ -633,6 +633,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					 <dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.displaylink.DisplayLinkUserAgent" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "73YQY62QM3")</string>
+						<key>Comment</key>
+						<string>DisplayLink Manager</string>
+						<key>Identifier</key>
+						<string>com.displaylink.DisplayLinkUserAgent</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
