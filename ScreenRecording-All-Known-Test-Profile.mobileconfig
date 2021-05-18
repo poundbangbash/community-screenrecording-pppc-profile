@@ -669,6 +669,18 @@
 						<key>Identifier</key>
 						<string>com.barco.clickshare</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.obsproject.obs-studio" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2MMRE5MTB8"</string>
+						<key>Comment</key>
+						<string>OBS Studio</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>Identifier</key>
+						<string>com.obsproject.obs-studio</string>
+					</dict>		
 				</array>
 			</dict>
 		</dict>
