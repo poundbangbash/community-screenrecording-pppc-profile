@@ -523,7 +523,7 @@
 						<key>Identifier</key>
 						<string>com.loom.desktop</string>
 						<key>IdentifierType</key>
-						<string>path</string>
+						<string>bundleID</string>
 					</dict>
 					<dict>
 						<key>Authorization</key>
@@ -535,7 +535,7 @@
 						<key>Identifier</key>
 						<string>com.techsmith.camtasia2020</string>
 						<key>IdentifierType</key>
-						<string>path</string>
+						<string>bundleID</string>
 					</dict>
 					<dict>
 						<key>Authorization</key>
@@ -547,7 +547,7 @@
 						<key>Identifier</key>
 						<string>org.safeexambrowser.Safe-Exam-Browser</string>
 						<key>IdentifierType</key>
-						<string>path</string>
+						<string>bundleID</string>
 					</dict>
 					<dict>
 						<key>Authorization</key>
