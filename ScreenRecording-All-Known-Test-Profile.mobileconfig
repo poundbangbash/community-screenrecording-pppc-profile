@@ -693,7 +693,7 @@
 						<key>Identifier</key>
 						<string>net.mkswap.Dropshare5</string>
 					</dict>
-						<dict>
+					<dict>
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
