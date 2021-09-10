@@ -781,7 +781,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>identifier "com.airtame.airtame-application" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4TPSP88HN2"<string>
+						<string>identifier "com.airtame.airtame-application" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4TPSP88HN2"</string>
 						<key>Comment</key>
 						<string>Airtame</string>
 						<key>Identifier</key>
