@@ -837,6 +837,18 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "anchor apple generic and identifier "com.fsm.mac.LiveReplayer" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2H7P9E934F")"</string>
+						<key>Comment</key>
+						<string>Future Sports Media LiveReplayer</string>
+						<key>Identifier</key>
+						<string>com.fsm.mac.LiveReplayer</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
