@@ -884,7 +884,19 @@
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
-				</array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.brave.Browser" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */</string>
+						<key>Comment</key>
+						<string>Brave Browser</string>
+						<key>Identifier</key>
+						<string>com.brave.Browser</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+        </array>
 			</dict>
 		</dict>
 	</array>
