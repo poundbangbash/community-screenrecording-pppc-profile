@@ -313,7 +313,7 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>(identifier "com.google.Chrome" or identifier "com.google.Chrome.beta" or identifier "com.google.Chrome.dev" or identifier "com.google.Chrome.canary") and certificate leaf = H"c9a99324ca3fcb23dbcc36bd5fd4f9753305130a"</string>
+						<string>(identifier "com.google.Chrome" or identifier "com.google.Chrome.beta" or identifier "com.google.Chrome.dev" or identifier "com.google.Chrome.canary") and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
 						<key>Comment</key>
 						<string>Google Chrome</string>
 						<key>Identifier</key>
@@ -366,6 +366,53 @@
 						<string>Snagit 2020</string>
 						<key>Identifier</key>
 						<string>com.TechSmith.Snagit2020</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.TechSmith.Snagit2021" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7TQL462TU8"</string>
+						<key>Comment</key>
+						<string>Snagit 2020</string>
+						<key>Identifier</key>
+						<string>com.TechSmith.Snagit2021</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.TechSmith.Snagit2022" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7TQL462TU8")</key>
+						<string>Snagit 2020</string>
+						<key>Identifier</key>
+						<string>com.TechSmith.Snagit2022</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.techsmith.snagit.capturehelper2022" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7TQL462TU8")</string>
+						<key>Comment</key>
+						<string>Snagit 2020</string>
+						<key>Identifier</key>
+						<string>ccom.techsmith.snagit.capturehelper2022</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.splashtop.Splashtop-SOS" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = CPQQ3AW49Y</string>
+						<key>Comment</key>
+						<string>Splashtop</string>
+						<key>Identifier</key>
+						<string>com.splashtop.Splashtop-SOS</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -661,6 +708,18 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
+						<string>identifier "com.aetherpal.mac.remotecontrol.netcore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = V4Y7PP8KCJ</string>
+						<key>Comment</key>
+						<string>Workspace ONE AssistCore</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>Identifier</key>
+						<string>com.aetherpal.mac.remotecontrol.netcore</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
 						<string>identifier "com.barco.clickshare" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = P6CDJZR997</string>
 						<key>Comment</key>
 						<string>Barco Clickshare</string>
@@ -709,15 +768,135 @@
 						<key>Authorization</key>
 						<string>AllowStandardUserToSetSystemService</string>
 						<key>CodeRequirement</key>
-						<string>anchor apple generic and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = JQ525L2MZD)</string>
+						<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = SXFUXR3YQJ</string>
 						<key>Comment</key>
-						<string>Adobe XD</string>
+						<string>NetSupport School - Client</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 						<key>Identifier</key>
-						<string>com.adobe.xd</string>
+						<string>com.netsupportsoftware.school.client</string>
 					</dict>
-				</array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = SXFUXR3YQJ</string>
+						<key>Comment</key>
+						<string>NetSupport School - Tutor</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>Identifier</key>
+						<string>com.netsupportsoftware.school.tutor</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.screencastomatic.launcher" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "48Z4QVLCS5"</string>
+						<key>Comment</key>
+						<string>Canvas Screen Recorder</string>
+						<key>Identifier</key>
+						<string>com.screencastomatic.launcher</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.netop.Vision-Student" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "48Z4QVLCS5"</string>
+						<key>Comment</key>
+						<string>Canvas Screen Recorder</string>
+						<key>Identifier</key>
+						<string>com.netop.Vision-Student</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.airtame.airtame-application" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4TPSP88HN2"</string>
+						<key>Comment</key>
+						<string>Airtame</string>
+						<key>Identifier</key>
+						<string>com.airtame.airtame-application</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.electron.kalturacapture" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "X8RDCFJK95"</string>
+						<key>Comment</key>
+						<string>KalturaCapture</string>
+						<key>Identifier</key>
+						<string>com.electron.kalturacapture</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.philandro.anydesk" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = KU6W3B6JMZ</string>
+						<key>Comment</key>
+						<string>Anydesk</string>
+						<key>Identifier</key>
+						<string>com.philandro.anydesk</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.techsmith.relayrecorder" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7TQL462TU8"</string>
+						<key>Comment</key>
+						<string>Techsmith Capture</string>
+						<key>Identifier</key>
+						<string>com.techsmith.relayrecorder</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier rustdesk and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = HZF9JMC8YN</string>
+						<key>Comment</key>
+						<string>RustDesk</string>
+						<key>Identifier</key>
+						<string>com.carriez.rustdesk</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+            <string>identifier "anchor apple generic and identifier "com.fsm.mac.LiveReplayer" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2H7P9E934F")"</string>
+						<key>Comment</key>
+						<string>Future Sports Media LiveReplayer</string>
+						<key>Identifier</key>
+						<string>com.fsm.mac.LiveReplayer</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.brave.Browser" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */</string>
+						<key>Comment</key>
+						<string>Brave Browser</string>
+						<key>Identifier</key>
+						<string>com.brave.Browser</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+        </array>
 			</dict>
 		</dict>
 	</array>
