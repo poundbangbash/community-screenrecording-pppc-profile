@@ -225,6 +225,18 @@
 						<key>Identifier</key>
 						<string>com.microsoft.teams2</string>
 					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.nulana.rxagentmac"</string>
+						<key>Comment</key>
+						<string>Acronis Cyber Connect Agent</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>Identifier</key>
+						<string>com.nulana.rxagentmac</string>
+					</dict>
         </array>
 			</dict>
 		</dict>
