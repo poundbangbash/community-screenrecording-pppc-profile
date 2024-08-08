@@ -921,19 +921,31 @@
 						<key>Identifier</key>
 						<string>com.microsoft.teams2</string>
 					</dict>
-                        		<dict>
-                            			<key>Authorization</key>
-                            			<string>AllowStandardUserToSetSystemService</string>
-                            			<key>CodeRequirement</key>
-                            			<string>identifier "com.microsoft.remotehelp" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-                            			<key>Comment</key>
-                            			<string>Microsoft Remote Help</string>
-                            			<key>IdentifierType</key>
-                            			<string>bundleID</string>
-                            			<key>Identifier</key>
-                            			<string>com.microsoft.remotehelp</string>
-                            		</dict>
-        </array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.remotehelp" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Comment</key>
+						<string>Microsoft Remote Help</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>Identifier</key>
+						<string>com.microsoft.remotehelp</string>
+					</dict>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.ninjarmm.ncstreamer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EBNT3ZX97E</string>
+						<key>Comment</key>
+						<string>Ninja Remote</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>Identifier</key>
+						<string>com.ninjarmm.ncstreamer</string>
+					</dict>
+			  </array
 			</dict>
 		</dict>
 	</array>
